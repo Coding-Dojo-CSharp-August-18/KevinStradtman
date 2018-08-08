@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.pdb
