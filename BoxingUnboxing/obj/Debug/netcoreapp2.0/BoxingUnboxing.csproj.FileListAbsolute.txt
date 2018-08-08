@@ -1,0 +1,10 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\bin\Debug\netcoreapp2.0\BoxingUnboxing.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\bin\Debug\netcoreapp2.0\BoxingUnboxing.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\bin\Debug\netcoreapp2.0\BoxingUnboxing.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\bin\Debug\netcoreapp2.0\BoxingUnboxing.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\bin\Debug\netcoreapp2.0\BoxingUnboxing.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\obj\Debug\netcoreapp2.0\BoxingUnboxing.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\obj\Debug\netcoreapp2.0\BoxingUnboxing.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\obj\Debug\netcoreapp2.0\BoxingUnboxing.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\obj\Debug\netcoreapp2.0\BoxingUnboxing.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\boxingunboxing\obj\Debug\netcoreapp2.0\BoxingUnboxing.pdb
