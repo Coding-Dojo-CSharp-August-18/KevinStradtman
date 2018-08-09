@@ -8,3 +8,4 @@ C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netco
 C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\bin\Debug\netcoreapp2.0\Puzzles.pdb
 C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.dll
 C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Puzzles\obj\Debug\netcoreapp2.0\Puzzles.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\puzzles\obj\Debug\netcoreapp2.0\Puzzles.csprojResolveAssemblyReference.cache

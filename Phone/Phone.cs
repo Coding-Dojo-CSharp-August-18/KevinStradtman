@@ -15,6 +15,33 @@ namespace Phone
             _ringTone = ringTone;
     }
         public abstract void DisplayInfo();
-
+        public string versionNumber
+        {
+            get
+            {
+                return _versionNumber;
+            }
+        }
+        public int batteryPercentage
+        {
+            get
+            {
+                return _batteryPercentage;
+            }
+        }
+        public string carrier
+        {
+            get
+            {
+                return _carrier;
+            }
+        }
+        public string ringTone
+        {
+            get
+            {
+                return _ringTone;
+            }
+        }
     }
 }
