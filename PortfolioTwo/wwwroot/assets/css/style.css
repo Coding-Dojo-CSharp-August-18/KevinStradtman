@@ -8,3 +8,10 @@ input.btn.btn-primary.btn-lg {
     text-align: center;
     margin: 0 auto;
 }
+
+.jumbotron h1 {
+    color: dodgerblue;
+}
+.jumbotron {
+    display: none;
+}
