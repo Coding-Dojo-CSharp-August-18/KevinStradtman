@@ -1,0 +1,10 @@
+div.projects {
+    overflow: scroll;
+    height: 500px;
+    scroll-behavior: auto;
+}
+input.btn.btn-primary.btn-lg {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}

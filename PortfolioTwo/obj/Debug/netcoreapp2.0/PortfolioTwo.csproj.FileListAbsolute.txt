@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\bin\Debug\netcoreapp2.0\PortfolioTwo.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\bin\Debug\netcoreapp2.0\PortfolioTwo.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\bin\Debug\netcoreapp2.0\PortfolioTwo.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\bin\Debug\netcoreapp2.0\PortfolioTwo.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\bin\Debug\netcoreapp2.0\PortfolioTwo.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioTwo\obj\Debug\netcoreapp2.0\PortfolioTwo.pdb
