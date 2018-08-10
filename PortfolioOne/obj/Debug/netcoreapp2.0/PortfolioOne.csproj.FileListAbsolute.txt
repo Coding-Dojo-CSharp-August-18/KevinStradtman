@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\bin\Debug\netcoreapp2.0\PortfolioOne.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\bin\Debug\netcoreapp2.0\PortfolioOne.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\bin\Debug\netcoreapp2.0\PortfolioOne.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\bin\Debug\netcoreapp2.0\PortfolioOne.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\bin\Debug\netcoreapp2.0\PortfolioOne.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\PortfolioOne\obj\Debug\netcoreapp2.0\PortfolioOne.pdb
