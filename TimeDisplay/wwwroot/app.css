@@ -1,0 +1,15 @@
+.time-container {
+    border: 1px solid rgb(200,200,200);
+    box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    -webkit-box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    -moz-box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    -ms-box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    -o-box-shadow: 3px 3px 5px rgba(50,50,50,0.5);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    height: 200px;
+    width: 200px;
+}
