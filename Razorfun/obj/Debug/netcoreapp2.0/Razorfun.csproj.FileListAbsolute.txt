@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\bin\Debug\netcoreapp2.0\Razorfun.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\bin\Debug\netcoreapp2.0\Razorfun.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\bin\Debug\netcoreapp2.0\Razorfun.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\bin\Debug\netcoreapp2.0\Razorfun.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\bin\Debug\netcoreapp2.0\Razorfun.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\Razorfun\obj\Debug\netcoreapp2.0\Razorfun.pdb
