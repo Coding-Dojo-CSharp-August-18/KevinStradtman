@@ -1,0 +1,12 @@
+@using ViewModelFun.Models
+@model Users
+
+<div class="row">
+    <div class="col-md-6 offset-3 text-center">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        @foreach(var user in @Model.users)
+        {
+            <p class="text-center">@user</p>
+        }
+    </div>
+</div>
