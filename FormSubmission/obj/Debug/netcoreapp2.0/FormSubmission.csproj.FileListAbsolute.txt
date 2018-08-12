@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\bin\Debug\netcoreapp2.0\FormSubmission.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\FormSubmission\obj\Debug\netcoreapp2.0\FormSubmission.pdb
