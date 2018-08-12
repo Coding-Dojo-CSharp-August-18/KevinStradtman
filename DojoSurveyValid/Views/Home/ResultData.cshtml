@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Results";
+}
+@model FormData
+
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <h3 class="text-center">@ViewData["Message"]</h3>
+        <p class="lead text-center">Name: @Model.Name</p>
+        <p class="lead text-center">Location: @Model.Location</p>
+        <p class="lead text-center">Language: @Model.Language</p>
+        <p class="text-center">Comment: @Model.Comment</p>
+    </div>
+</div>
