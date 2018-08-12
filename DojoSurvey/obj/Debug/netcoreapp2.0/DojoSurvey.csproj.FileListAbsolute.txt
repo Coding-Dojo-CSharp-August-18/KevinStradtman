@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\bin\Debug\netcoreapp2.0\DojoSurvey.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\bin\Debug\netcoreapp2.0\DojoSurvey.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\bin\Debug\netcoreapp2.0\DojoSurvey.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\bin\Debug\netcoreapp2.0\DojoSurvey.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\bin\Debug\netcoreapp2.0\DojoSurvey.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\DojoSurvey\obj\Debug\netcoreapp2.0\DojoSurvey.pdb
