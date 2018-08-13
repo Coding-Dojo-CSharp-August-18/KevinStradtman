@@ -17,12 +17,12 @@
             <div class="form-group">
                 <span asp-validation-for="Location"></span><br>
                 <label asp-for="Location"></label>
-                <select asp-for="Location" class="form-control" asp-items="Model.Locations"></select>
+                <select asp-for="Location" class="form-control" asp-items="ViewBag.model.Locations"></select>
             </div>
             <div class="form-group">
                 <span asp-validation-for="Language"></span><br>
                 <label asp-for="Language"></label>
-                <select asp-for="Language" class="form-control" asp-items="Model.Languages"></select>
+                <select asp-for="Language" class="form-control" asp-items="ViewBag.model.Languages"></select>
             </div>
             <div class="form-group">
                 <span asp-validation-for="Comment"></span><br>

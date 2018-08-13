@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Quotes";
+}
+@model Quote
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+        <h1 class="text-center">@ViewData["Message"]</h1>
+        @foreach(var quote in @ViewBag.Quotes)
+        {
+            <div class="quote">
+                <p class="lead">@quote["quote_body"]</p>
+                <p class="lead text-center">- @quote["name"] - @quote["created_at"]</p>
+            </div>
+            <hr>
+        }
+    </div>  
+</div>

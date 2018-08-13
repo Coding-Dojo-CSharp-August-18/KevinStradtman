@@ -14,7 +14,7 @@ namespace DojoSurveyValid.Models
         [Required]
         [Display(Name = "Location")]
         public string Location { get; set; }
-        public List<SelectListItem> Locations {get;} = new List<SelectListItem>()
+        public List<SelectListItem> Locations {get;} = new List<SelectListItem>
         {
             new SelectListItem {Value="Seattle", Text="Seattle"},
             new SelectListItem {Value="Washington D.C.", Text="Washington D.C."},
@@ -25,7 +25,7 @@ namespace DojoSurveyValid.Models
         [Required]
         [Display(Name="Favorite Language")]
         public string Language { get; set; }
-        public List<SelectListItem> Languages {get;} = new List<SelectListItem>()
+        public List<SelectListItem> Languages {get;} = new List<SelectListItem>
         {
             new SelectListItem {Value="PHP", Text="PHP"},
             new SelectListItem {Value="C#", Text="C#"},

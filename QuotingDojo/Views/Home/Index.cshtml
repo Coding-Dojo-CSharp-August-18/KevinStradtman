@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Add Quote";
+}
+@model Quote
+<div class="row">
+    <div class="col-md-6">
+        <h1 class="text-center">@ViewData["Message"]</h1>
+        <form asp-action="PostQuote" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <span asp-validation-for="name"></span><br>
+                <label asp-for="name"></label>
+                <input asp-for="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="quote_body"></span><br>
+                <label asp-for="quote_body"></label>
+                <textarea asp-for="quote_body" class="form-control" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-success">
+        </form>
+    </div>
+</div>
