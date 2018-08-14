@@ -7,7 +7,7 @@ namespace DojoSurveyValid.Models
     {
         [Required]
         [MinLength(2, ErrorMessage="You need to have at least 2 characters for the name")]
-        [MaxLength(20, ErrorMessage="You cannot exceed 20 characters for the name")]
+        [MaxLength(15, ErrorMessage="You cannot exceed 15 characters for the name")]
         [Display(Name="Name")]
         public string Name { get; set; }
 
@@ -33,8 +33,8 @@ namespace DojoSurveyValid.Models
         //     new SelectListItem {Value="JavaScript", Text="JavaScript"}
         // };
         
-        [MinLength(5, ErrorMessage="You must have at least 5 characters for the comment")]
-        [MaxLength(100, ErrorMessage="You cannot exceed 100 characters for the comment")]
+        [MinLength(8, ErrorMessage="You must have at least 8 characters for the comment")]
+        [MaxLength(30, ErrorMessage="You cannot exceed 30 characters for the comment")]
         [Display(Name="Comment")]
         public string Comment { get; set; }
     }
