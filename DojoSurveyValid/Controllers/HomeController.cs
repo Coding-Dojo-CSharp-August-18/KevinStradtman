@@ -12,42 +12,9 @@ namespace DojoSurveyValid.Controllers
     public class HomeController : Controller
     {
         [HttpGet("")]
-        public IActionResult Index(int id)
+        public IActionResult Index()
         {
             ViewData["Message"] = "Send Some Info Through This Form";
-            FormData location1 = new FormData()
-            {
-                Location = "Washington D.C."
-            };
-            FormData location2 = new FormData()
-            {
-                Location = "Redmond W.A."
-            };
-            FormData location3 = new FormData()
-            {
-                Location = "Austin Texas"
-            };
-            FormData location4 = new FormData()
-            {
-                Location = "Seattle"
-            };
-
-            FormData language1 = new FormData()
-            {
-                Language = "PHP"
-            };
-            FormData language2 = new FormData()
-            {
-                Language = "C#"
-            };
-            FormData language3 = new FormData()
-            {
-                Language = "C++"
-            };
-            FormData language4 = new FormData()
-            {
-                Language = "JavaScript"
-            };
             return View();
         }
         [HttpPost("result")]
@@ -56,7 +23,7 @@ namespace DojoSurveyValid.Controllers
             ViewData["Message"] = "Data From The Form";
             if(ModelState.IsValid)
             {
-                return View("Index", data);
+                return View("ResultData", data);
             }
             return View("Index");
         }
