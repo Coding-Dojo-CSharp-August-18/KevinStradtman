@@ -1,0 +1,21 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.card .card-img-top {
+    width: 300px !important;
+    height: 300px !important;
+}
+.card {
+    box-shadow: 3px 3px 6px rgba(50,50,50,0.5);
+    -webkit-box-shadow: 3px 3px 6px rgba(50,50,50,0.5);
+    -moz-box-shadow: 3px 3px 6px rgba(50,50,50,0.5);
+    -ms-box-shadow: 3px 3px 6px rgba(50,50,50,0.5);
+    -o-box-shadow: 3px 3px 6px rgba(50,50,50,0.5);
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}

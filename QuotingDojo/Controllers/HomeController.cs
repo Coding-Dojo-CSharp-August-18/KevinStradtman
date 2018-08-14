@@ -22,7 +22,7 @@ namespace QuotingDojo.Controllers
         {
              if(ModelState.IsValid)
             {
-                string insertString = $"INSERT INTO quotes (name, quote_body, created_at, updated_at) VALUES ('{quote.name}','{quote.quote_body}', now(), now());";
+                string insertString = $"INSERT INTO quotes (name, quote_body, created_at, updated_at) VALUES ('{quote.name}','{quote.quote_body}', now(), now())";
                 DbConnector.Execute(insertString);
                 return RedirectToAction("Quotes");
             }
