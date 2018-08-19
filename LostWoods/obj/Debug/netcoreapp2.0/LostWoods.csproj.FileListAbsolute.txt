@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\bin\Debug\netcoreapp2.0\LostWoods.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LostWoods\obj\Debug\netcoreapp2.0\LostWoods.pdb

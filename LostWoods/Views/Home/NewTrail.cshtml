@@ -1,0 +1,77 @@
+@{
+    ViewData["Title"] = "Add A New Trail";
+}
+@using System.ComponentModel.DataAnnotations;
+@model Trails
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">@ViewData["Title"]</h1>
+        <form asp-action="ProcessTrail" asp-controller="Home" method="POST">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="name"></span>
+                    </div>
+                    <br>
+                    <label asp-for="name"></label>
+                    <input asp-for="name" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="description"></span>
+                    </div>    
+                    <br>
+                    <label asp-for="description"></label>
+                    <textarea asp-for="description" class="form-control" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="trail_length"></span>
+                    </div>
+                    <br>
+                    <label asp-for="trail_length"></label>
+                    <input asp-for="trail_length" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="elevation"></span>
+                    </div>
+                    <br>
+                    <label asp-for="elevation"></label>
+                    <input asp-for="elevation" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="lat"></span>
+                    </div>
+                    <br>
+                    <label asp-for="lat"></label>
+                    <input asp-for="lat" class="form-control">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="bg-danger">
+                        <span asp-validation-for="lng"></span>
+                    </div>
+                    <br>
+                    <label asp-for="lng"></label>
+                    <input asp-for="lng" class="form-control">
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3">
+                <input type="submit" value="Create Record" class="btn btn-primary btn-lg">
+            </div>
+        </form>
+    </div>
+</div>
