@@ -1,0 +1,11 @@
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\bin\Debug\netcoreapp2.0\LoginRegister.deps.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\bin\Debug\netcoreapp2.0\LoginRegister.runtimeconfig.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\bin\Debug\netcoreapp2.0\LoginRegister.runtimeconfig.dev.json
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\bin\Debug\netcoreapp2.0\LoginRegister.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\bin\Debug\netcoreapp2.0\LoginRegister.pdb
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.AssemblyInfoInputs.cache
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.AssemblyInfo.cs
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.dll
+C:\Users\Kevin\Desktop\csharp\coding-dojo\KevinStradtman\LoginRegister\obj\Debug\netcoreapp2.0\LoginRegister.pdb

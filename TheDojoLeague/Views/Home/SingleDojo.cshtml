@@ -1,0 +1,64 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">Dojo Name - @ViewBag.singleDojo.name</h1>
+        <h3 class="text-center">Location - @ViewBag.singleDojo.location</h3>
+        <p class="lead text-center">Description - @ViewBag.singleDojo.extra</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        @if(ViewBag.singleDojo.ninjas.Count == 0)
+        {
+            <h1>Sorry no ninjas at this location</h1>
+        }
+        else 
+        {
+            <h1>Registered Ninjas</h1>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ninja</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var ninja in ViewBag.singleDojo.ninjas)
+                    {
+                        <tr>
+                            <td><a href="@ViewBag.singleNinja/SingleNinja/@ninja.Id"> @ninja.name</a></td>
+                            <td><a href="@ViewBag.singleDojo.Id/Banish/@ninja.Id" class="btn btn-danger">Banish!</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+    <div class="col-md-6">
+        @if(ViewBag.rogue.Count == 0)
+        {
+            <h1>Sorry No Rogues</h1>
+        }
+        else
+        {
+            <h1 class="text-center">Rogues</h1>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Ninja</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var ninja in ViewBag.rogue)
+                    {
+                        <tr>
+                            <td>@ninja.name</td>
+                            <td><a href="@ViewBag.singleDojo.Id/Recruit/@ninja.Id" class="btn btn-success">Recruit!</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

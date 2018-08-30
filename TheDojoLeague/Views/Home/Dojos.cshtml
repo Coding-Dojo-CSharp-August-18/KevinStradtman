@@ -1,0 +1,55 @@
+@model Dojos
+<div class="row">
+    <div class="col-md-6">
+        <h1>All Dojos</h1>
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Dojo Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var dojo in ViewBag.dojos)
+                {
+                    <tr>
+                        @if(dojo.Id == 5)
+                        {
+                            <td>@dojo.name</td>
+                        }
+                        else
+                        {
+                            <td><a href="SingleDojo/@dojo.Id">@dojo.name</a></td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <h1>Registered A Dojo</h1>
+        <form asp-action="CreateDojo" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <div class="bg-alert">
+                    <span asp-validation-for="name"></span>
+                </div>
+                <label asp-for="name"></label>
+                <input asp-for="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <div class="bg-alert">
+                    <span asp-validation-for="location"></span>
+                </div>
+                <label asp-for="location"></label>
+                <input asp-for="location" class="form-control">
+            </div>
+            <div class="form-group">
+                <div class="bg-alert">
+                    <span asp-validation-for="extra"></span>
+                </div>
+                <label asp-for="extra"></label>
+                <textarea asp-for="extra" class="form-control" cols="20" rows="5"></textarea>
+            </div>
+            <input type="submit" value="Add Dojo" class="btn btn-success">
+        </form>
+    </div>
+</div>

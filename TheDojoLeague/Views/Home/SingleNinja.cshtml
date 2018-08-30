@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-12">
+        <h1>Name: @ViewBag.ninja.name</h1>
+        <p class="lead">Ninja Level - @ViewBag.ninja.level</p>
+        <p>Description - @ViewBag.ninja.description</p>
+        @if(ViewBag.ninja.dojo_id == 5)
+        {
+            <p>Current Dojo: @ViewBag.ninja.dojo.name</p>
+        }
+        else 
+        {
+            <p>Current Dojo: <a href="/SingleDojo/@ViewBag.ninja.dojo_id">@ViewBag.ninja.dojo.name</a></p>
+        }
+        
+    </div>
+</div>
