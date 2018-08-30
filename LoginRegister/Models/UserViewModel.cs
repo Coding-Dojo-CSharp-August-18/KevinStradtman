@@ -29,7 +29,7 @@ namespace LoginRegister.Models
 
         [Required(ErrorMessage="Password is required")]
         [DataType(DataType.Password)]
-        [MinLength(4, ErrorMessage="You must have at least 8 characters for your password")]
+        [MinLength(8, ErrorMessage="You must have at least 8 characters for your password")]
         [Display(Name="Password")]
         public string password {get;set;}
 
@@ -48,7 +48,7 @@ namespace LoginRegister.Models
 
         [Required(ErrorMessage="Password is required")]
         [DataType(DataType.Password)]
-        [MinLength(4, ErrorMessage="You must have at least 4 characters for your password")]
+        [MinLength(8, ErrorMessage="You must have at least 8 characters for your password")]
         [Display(Name="Password")]
         public string password {get;set;}
 
