@@ -1,0 +1,64 @@
+<div class="row">
+    <div class="col-md-6">
+        <h1>Add Amount</h1>
+        <form asp-action="ProcessTransaction" asp-controller="Home" method="POST">
+            <input type="hidden" name="accountid" value="@ViewBag.account.account_id">
+            <input type="hidden" name="Balance" value="@ViewBag.account.balance">
+            <div class="form-group">
+                <input type="number" name="amount" max="1000" min="-1000" class="form-control">
+            </div>
+            <input type="submit" value="Process" class="btn btn-primary btn-round">
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h1>Balance for @ViewBag.user</h1>
+        <div class="balance">
+            <span>@ViewBag.account.balance</span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="transactions">
+            <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Amount</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach(var trans in ViewBag.account.Transactions)
+                    {
+                        <tr>
+                                <td>@trans.transaction_id</td>
+                                @if(trans.amount < 0)
+                                {
+                                    <td class="text-danger"><b>@trans.amount</b></td>
+                                }
+                                else if(trans.amount > 0)
+                                {
+                                    <td class="text-success"><b>@trans.amount</b></td>
+                                }
+                                else
+                                {
+                                    <td>@trans.amount</td>
+                                }
+                                <td>@trans.trans_date</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <a asp-action="Logout" asp-controller="Home" asp-area=""  class="btn btn-primary btn-round">Logout</a>
+    </div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+    <div class="col-md-3"></div>
+</div>

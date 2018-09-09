@@ -1,0 +1,11 @@
+C:\Users\strad\Desktop\csharp\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.deps.json
+C:\Users\strad\Desktop\csharp\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.runtimeconfig.json
+C:\Users\strad\Desktop\csharp\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.runtimeconfig.dev.json
+C:\Users\strad\Desktop\csharp\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.dll
+C:\Users\strad\Desktop\csharp\BankAccounts\bin\Debug\netcoreapp2.0\BankAccounts.pdb
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.csprojResolveAssemblyReference.cache
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.csproj.CoreCompileInputs.cache
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.AssemblyInfoInputs.cache
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.AssemblyInfo.cs
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.dll
+C:\Users\strad\Desktop\csharp\BankAccounts\obj\Debug\netcoreapp2.0\BankAccounts.pdb
