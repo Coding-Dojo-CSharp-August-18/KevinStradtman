@@ -1,0 +1,11 @@
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\bin\Debug\netcoreapp2.0\ProCat.deps.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\bin\Debug\netcoreapp2.0\ProCat.runtimeconfig.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\bin\Debug\netcoreapp2.0\ProCat.runtimeconfig.dev.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\bin\Debug\netcoreapp2.0\ProCat.dll
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\bin\Debug\netcoreapp2.0\ProCat.pdb
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.csprojResolveAssemblyReference.cache
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.csproj.CoreCompileInputs.cache
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.AssemblyInfoInputs.cache
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.AssemblyInfo.cs
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.dll
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\ProCat\obj\Debug\netcoreapp2.0\ProCat.pdb

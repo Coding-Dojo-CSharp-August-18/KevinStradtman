@@ -1,0 +1,29 @@
+@model ProCat.Models.Category
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">Categories</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <table class="table hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var c in ViewBag.categories)
+                {
+                    <tr>
+                        <td>@c.category_id</td>
+                        <td><a href="category/@c.category_id">@c.name</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

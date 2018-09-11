@@ -1,0 +1,21 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Alice|Lobster|Tangerine');
+
+td.text-info  {
+    font-family: 'Tangerine', cursive;
+    font-size: 160%;
+    font-weight: 600;
+}
+table tr td,
+table tr th {
+    text-align: center;
+}
+
+.card-header h1 {
+    font-family: 'Alice', serif;
+    color: dodgerblue;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-family: 'Alice', serif;
+    font-weight: 700;
+}

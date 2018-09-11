@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace WeddingPlanner.Models
+{
+    public class Wedding : BaseEntity
+    {
+        [Key]
+        public int wedding_id {get;set;}
+        public int user_id {get;set;}
+        public User Host {get;set;}
+        public string wedder_one {get;set;}
+        public string wedder_two {get;set;}
+
+        public DateTime event_date {get;set;}
+
+        public string address {get;set;}
+
+        public List<WeddingGuest> Guests {get;set;}
+
+        public Wedding()
+        {
+            Guests = new List<WeddingGuest>();
+            created_at = DateTime.Now;
+            updated_at = DateTime.Now;
+        }
+    }
+}

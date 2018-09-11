@@ -12741,11 +12741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\strad\\Desktop\\csharp\\BankAccounts\\BankAccounts.csproj",
+      "projectUniqueName": "c:\\Users\\strad\\Desktop\\csharp\\KevinStradtman\\KevinStradtman\\BankAccounts\\BankAccounts.csproj",
       "projectName": "BankAccounts",
-      "projectPath": "C:\\Users\\strad\\Desktop\\csharp\\BankAccounts\\BankAccounts.csproj",
+      "projectPath": "c:\\Users\\strad\\Desktop\\csharp\\KevinStradtman\\KevinStradtman\\BankAccounts\\BankAccounts.csproj",
       "packagesPath": "C:\\Users\\strad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\strad\\Desktop\\csharp\\BankAccounts\\obj\\",
+      "outputPath": "c:\\Users\\strad\\Desktop\\csharp\\KevinStradtman\\KevinStradtman\\BankAccounts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

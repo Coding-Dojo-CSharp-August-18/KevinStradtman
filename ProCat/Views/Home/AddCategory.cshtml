@@ -1,0 +1,21 @@
+@model ProCat.Models.AddCategory
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center">Add Product</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <form asp-action="ProcessCategory" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <div class="bg-danger">
+                    <span asp-validation-for="name"></span>
+                </div>
+                <br>
+                <input asp-for="name" class="form-control" placeholder="Category Name">
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary btn-round">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model WeddingPlanner.Models.Wedding
+<div class="row">
+    <div class="col-md-10 offset-1 mt-5">
+        <div class="card card-nav-tabs card">
+                <div class="card-header card-header-info">
+                    <h1 class="text-center">Planner: @ViewBag.name.first_name</h1>
+                </div>
+                <div class="card-body ">
+                    <table class="table table-hover">
+                        <thead class="bg-info thead-info">
+                            <tr class="text-white">
+                                <th>Wedders</th>
+                                <th>Event Date</th>
+                                <th>Address</th>
+                                <th>Guests</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var w in ViewBag.Weddings)
+                            {
+                                <tr>
+                                    <td class="text-info">@w.wedder_one &amp; @w.wedder_two</td>
+                                    <td>@w.event_date</td>
+                                    <td>@w.address</td>
+                                    <td>Guests</td>
+                                    <td>
+                                        <a href="" class="btn btn-success btn-round">RSVP</a>
+                                        <a href="" class="btn btn-danger btn-round">Delete</a>
+                                    </td>
+                                </tr>    
+                            }
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+        @if(ViewBag.id != null)
+        {
+            <a class="btn btn-round btn-danger" asp-area="" asp-controller="Home" asp-action="Logout">Logout</a>
+            <a class="btn btn-round btn-primary" asp-area="" asp-controller="Home" asp-action="AddEvent">Add Event</a>
+        }
+    </div>
+</div>

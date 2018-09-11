@@ -1,0 +1,30 @@
+@model ProCat.Models.Category
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>@Model.name</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h3>Products</h3>
+        @foreach (var p in Model.CatPro)
+        {
+            <p>@p.Products.name</p>
+        }
+    </div>
+    <div class="col-md-6">
+        <form asp-action="AddProductToCategory" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <select name="productid" class="form-control">
+                    @foreach (var p in ViewBag.products)
+                    {
+                        <option value="@p.product_id">@p.name</option>
+                    }
+                </select>
+                <input type="hidden" name="categoryid" value="@Model.category_id">
+            </div>
+            <input type="submit" value="Add" class="btn btn-success">
+        </form>
+    </div>
+</div>
