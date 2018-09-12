@@ -23,10 +23,29 @@
                                     <td class="text-info">@w.wedder_one &amp; @w.wedder_two</td>
                                     <td>@w.event_date</td>
                                     <td>@w.address</td>
-                                    <td>Guests</td>
+                                    <td>@w.Guests.Count</td>
                                     <td>
-                                        <a href="" class="btn btn-success btn-round">RSVP</a>
-                                        <a href="" class="btn btn-danger btn-round">Delete</a>
+                                        @if(w.user_id == ViewBag.id)
+                                        {
+                                            <form action="delete" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="Delete" class="btn btn-round btn-danger">
+                                            </form>
+                                        }
+                                        else if(w.Guests.Exists(g => g.user_id == ViewBag.id))
+                                        {
+                                            <form action="unrsvp" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="UNRSVP" class="btn btn-round btn-success">
+                                            </form>
+                                        }
+                                        else
+                                        {
+                                            <form asp-action="RSVP" asp-controller="Home" method="POST">
+                                                <input type="hidden" name="id" value="@w.wedding_id">
+                                                <input type="submit" value="RSVP" class="btn btn-round btn-success">
+                                            </form>
+                                        }
                                     </td>
                                 </tr>    
                             }

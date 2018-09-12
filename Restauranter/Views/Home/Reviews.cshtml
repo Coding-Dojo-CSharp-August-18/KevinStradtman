@@ -1,0 +1,21 @@
+@model Restauranter.Models.Review
+
+<div class="row">
+    <div class="col-md-12">
+        @foreach(var r in ViewBag.reviews)
+        {
+            <h3>@r.name</h3>
+            <p class="lead">@r.rest_name</p>
+            <p>@r.rating stars</p>
+            <p>@r.review</p>
+            <small>@r.visit</small>
+            <hr>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Index" asp-controller="Home" class="btn btn-round btn-success">Go Back</a>
+    </div>
+</div>

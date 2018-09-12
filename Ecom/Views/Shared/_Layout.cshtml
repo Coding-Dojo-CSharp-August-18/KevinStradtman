@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ecommerce</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/theme/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="~/theme/assets/css/now-ui-kit.min.css">
+        <link rel="stylesheet" href="~/css/site.css">
+    </environment>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-bar bar1"></span>
+      <span class="navbar-toggler-bar bar2"></span>
+      <span class="navbar-toggler-bar bar3"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Admin
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" asp-controller="" asp-action="">Customers</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Add Customer</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Edit Customer</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Product</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Add Product</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Edit Product</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Category</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Add Category</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Edit Category</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Orders</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Add Orders</a>
+            <a class="dropdown-item" asp-controller="" asp-action="">Edit Orders</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Footwear
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"></a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            User
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" asp-controller="Home" asp-action="Register">Register</a>
+            <a class="dropdown-item" asp-controller="Home" asp-action="Login">Login</a>
+            <a class="dropdown-item" href="#"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container mt-5">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2018 - Ecommerce</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/theme/assets/js/core/jquery.min.js"></script>
+        <script src="~/theme/assets/js/core/bootstrap.min.js"></script>
+        <script src="~/theme/assets/js/core/popper.min.js"></script>
+        <script src="~/theme/assets/js/now-ui-kit.min.js"></script>
+        <script src="~/theme/assets/js/plugins/bootstrap-selectpicker.js"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

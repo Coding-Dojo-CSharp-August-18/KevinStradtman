@@ -13,7 +13,6 @@ namespace WeddingPlanner.Models
         public int user_id {get;set;}
         public User Guest {get;set;}
         public Wedding Wedding {get;set;}
-        public bool pending {get;set;}
 
         public WeddingGuest()
         {

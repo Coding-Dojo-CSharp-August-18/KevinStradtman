@@ -1,0 +1,63 @@
+﻿@model Restauranter.Models.Review
+
+<div class="row">
+    <div class="col md-10 offset-1">
+        <h1 class="text-center">Write A Review</h1>
+        <form asp-action="AddReview" asp-controller="Home" method="POST">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <div class="bg-danger">
+                        <span asp-validation-for="name"></span>
+                    </div>
+                    <br>
+                    <input asp-for="name" class="form-control" placeholder="Reviewer Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="bg-danger">
+                        <span asp-validation-for="rest_name"></span>
+                    </div>
+                    <br>
+                    <input asp-for="rest_name" class="form-control" placeholder="Restaurant Name">
+                </div>
+                <div class="form-group col-md-4">
+                    <div class="bg-danger">
+                        <span asp-validation-for="rating"></span>
+                    </div>
+                    <br>
+                    <select asp-for="rating" class="form-control">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <div class="bg-danger">
+                        <span asp-validation-for="review"></span>
+                    </div>
+                    <br>
+                    <textarea asp-for="review" class="form-control" cols="30" rows="10" placeholder="Review"></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <div class="bg-danger">
+                        <span asp-validation-for="review"></span>
+                    </div>
+                    <br>
+                    <input asp-for="visit" class="form-control" placeholder="Visit Date">
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="btn btn-round btn-info">
+        </form>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="Reviews" asp-controller="Home" class="btn btn-round btn-success">Reviews</a>
+    </div>
+</div>

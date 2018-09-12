@@ -14,11 +14,11 @@ namespace WeddingPlanner.Models
         public string password {get;set;}
 
         public List<Wedding> Weddings {get;set;}
-        public List<WeddingGuest> WeddingGuests {get;set;}
+        public List<WeddingGuest> Guests {get;set;}
         public User()
         {
             Weddings = new List<Wedding>();
-            WeddingGuests = new List<WeddingGuest>();
+            Guests = new List<WeddingGuest>();
             created_at = DateTime.Now;
             updated_at = DateTime.Now;
         }

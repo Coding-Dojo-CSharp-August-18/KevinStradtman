@@ -1,0 +1,10 @@
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\bin\Debug\netcoreapp2.0\Ecom.deps.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\bin\Debug\netcoreapp2.0\Ecom.runtimeconfig.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\bin\Debug\netcoreapp2.0\Ecom.runtimeconfig.dev.json
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\bin\Debug\netcoreapp2.0\Ecom.dll
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\bin\Debug\netcoreapp2.0\Ecom.pdb
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\obj\Debug\netcoreapp2.0\Ecom.csproj.CoreCompileInputs.cache
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\obj\Debug\netcoreapp2.0\Ecom.AssemblyInfoInputs.cache
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\obj\Debug\netcoreapp2.0\Ecom.AssemblyInfo.cs
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\obj\Debug\netcoreapp2.0\Ecom.dll
+C:\Users\strad\Desktop\csharp\KevinStradtman\KevinStradtman\Ecom\obj\Debug\netcoreapp2.0\Ecom.pdb

@@ -121,11 +121,11 @@ namespace WeddingPlanner.Controllers
             User thisUserName = _wContext.users 
                 .Where(u => u.first_name == HttpContext.Session.GetString("first_name"))
                 .FirstOrDefault();
-            ViewBag.Weddings = _wContext.weddings
-                .Where(w => w.event_date > System.DateTime.Now)
-                .OrderBy(d => d.event_date)
-                .Include(h => h.Host)
+            IEnumerable<Wedding> weddings = _wContext.weddings
+                .Include(u => u.Host)
+                .Include(u => u.Guests)
                 .ToList();
+            ViewBag.Weddings = weddings;
             ViewBag.id = thisUser;
             ViewBag.name = thisUserName;
             return View();
@@ -159,9 +159,39 @@ namespace WeddingPlanner.Controllers
             return View("AddEvent");
         }
 
-        [HttpPost("RSVP")]
-        public IActionResult RSVP(int id)
+        [HttpPost("rsvp")]
+        public IActionResult rsvp(int id)
         {
+            if(ActiveUser == null)
+            {
+                return RedirectToAction("Login");
+            }
+            WeddingGuest guest = new WeddingGuest
+            {
+                user_id = ActiveUser.user_id,
+                wedding_id = id
+            };
+            _wContext.Add(guest);
+            _wContext.SaveChanges();
+            return RedirectToAction("Dashboard");
+        }
+        [HttpPost("unrsvp")]
+        public IActionResult unrsvp(int id)
+        {
+            WeddingGuest delete = _wContext.wedding_guests
+                .Where(g => g.wedding_id == id)
+                .SingleOrDefault(tg => tg.user_id == ActiveUser.user_id);
+                _wContext.wedding_guests.Remove(delete);
+                _wContext.SaveChanges();
+                return RedirectToAction("Dashboard");
+        }
+        [HttpPost("delete")]
+        public IActionResult Delete(int id)
+        {
+            Wedding wedding = _wContext.weddings
+                .SingleOrDefault(w => w.wedding_id == id);
+            _wContext.weddings.Remove(wedding);
+            _wContext.SaveChanges();
             return RedirectToAction("Dashboard");
         }
         public IActionResult Error()
